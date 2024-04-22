@@ -6,9 +6,21 @@ app.listen(port, ()=>{
     console.log(`app is listening on port ${port}`);
 });
 
-app.use((req, res) =>{
-    // console.log(req);
-    console.log("req accepted");
-    let code = "<h1>Fruits</h1> <ul><li>Apple</li><li>Mango</li></ul>";
-    res.send(code);
+app.get("/", (req, res)=>{
+    res.send("you connect with root path");
 });
+
+app.get("/search", (req, res)=>{
+    res.send("you connect with search path");
+});
+
+app.get("/help", (req, res)=>{
+    res.send("you connect with help path");
+});
+
+// app.use((req, res) =>{
+//     // console.log(req);
+//     console.log("req accepted");
+//     let code = "<h1>Fruits</h1> <ul><li>Apple</li><li>Mango</li></ul>";
+//     res.send(code);
+// });
