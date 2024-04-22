@@ -7,7 +7,7 @@ app.listen(port, ()=>{
 });
 
 app.get("/", (req, res)=>{
-    res.send("you connect with root path");
+    res.send("this is root");
 });
 
 app.get("/search", (req, res)=>{
@@ -16,6 +16,10 @@ app.get("/search", (req, res)=>{
 
 app.get("/help", (req, res)=>{
     res.send("you connect with help path");
+});
+
+app.get("*", (req, res)=>{
+    res.send("path does not exit");
 });
 
 // app.use((req, res) =>{
