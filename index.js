@@ -9,5 +9,8 @@ app.listen(port, ()=>{
 app.use((req, res) =>{
     // console.log(req);
     console.log("req accepted");
-    res.send("Play cricket");
+    res.send({
+        name: "Bismay",
+        play: "cricket",
+    });
 });
