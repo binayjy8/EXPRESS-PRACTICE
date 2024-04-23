@@ -10,6 +10,12 @@ app.get("/", (req, res)=>{
     res.send("Hello i am root");
 });
 
+app.get("/:username", (req, res) => {
+    console.log(req.param);
+    res.send("Hello");
+});
+
+
 // app.get("/search", (req, res)=>{
 //     res.send("you connect with search path");
 // });
