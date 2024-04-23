@@ -7,20 +7,20 @@ app.listen(port, ()=>{
 });
 
 app.get("/", (req, res)=>{
-    res.send("this is root");
+    res.send("Hello i am root");
 });
 
-app.get("/search", (req, res)=>{
-    res.send("you connect with search path");
-});
+// app.get("/search", (req, res)=>{
+//     res.send("you connect with search path");
+// });
 
-app.get("/help", (req, res)=>{
-    res.send(" connect with help path");
-});
+// app.get("/help", (req, res)=>{
+//     res.send(" connect with help path");
+// });
 
-app.get("*", (req, res)=>{
-    res.send("path does not exit");
-});
+// app.get("*", (req, res)=>{
+//     res.send("path does not exit");
+// });
 
 // app.use((req, res) =>{
 //     // console.log(req);
