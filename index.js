@@ -18,7 +18,8 @@ app.get("/:username/:id", (req, res) => {
 
 app.get("/search", (req, res) => {
     let { q } = req.query;
-    res.send(`search resulet fo query ${q}`);
+
+    res.send(`<h1>search resulet fo query ${q}</h1>`);
 });
 
 // app.get("/search", (req, res)=>{
