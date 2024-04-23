@@ -18,7 +18,9 @@ app.get("/:username/:id", (req, res) => {
 
 app.get("/search", (req, res) => {
     let { q } = req.query;
-
+    if (!q) {
+        res.send("<h1>Nothing is Searched</h1>");
+    }
     res.send(`<h1>search resulet fo query ${q}</h1>`);
 });
 
