@@ -10,7 +10,7 @@ app.get("/", (req, res)=>{
     res.send("Hello i am root");
 });
 
-app.get("/:username", (req, res) => {
+app.get("/:username/:id", (req, res) => {
     console.log(req.params);
     res.send("Hello");
 });
