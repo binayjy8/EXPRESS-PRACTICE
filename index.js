@@ -15,7 +15,7 @@ app.get("/search", (req, res)=>{
 });
 
 app.get("/help", (req, res)=>{
-    res.send("you connect with help path");
+    res.send(" connect with help path");
 });
 
 app.get("*", (req, res)=>{
