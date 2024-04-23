@@ -16,6 +16,10 @@ app.get("/:username/:id", (req, res) => {
     res.send(HTMLstr);
 });
 
+app.get("/search", (req, res) => {
+    let { q } = req.query;
+    res.send(`search resulet fo query ${q}`);
+});
 
 // app.get("/search", (req, res)=>{
 //     res.send("you connect with search path");
