@@ -25,7 +25,7 @@ app.get("/search", (req, res) => {
 });
 
 // app.get("/search", (req, res)=>{
-//     res.send("you connect with search pt");
+//     res.send("you connect with search t");
 // });
 
 // app.get("/help", (req, res)=>{
