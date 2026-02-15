@@ -25,7 +25,7 @@ app.get("/search", (req, res) => {
 });
 
 // app.get("/search", (req, res)=>{
-//     res.send("you connect with seac");
+//     res.send("you connect with sea");
 // });
 
 // app.get("/help", (req, res)=>{
