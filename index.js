@@ -29,7 +29,7 @@ app.get("/search", (req, res) => {
 // });
 
 // app.get("/help", (req, res)=>{
-//     res.send(" connect with help path");
+//     res.send(" connect with help pah");
 // });
 
 // app.get("*", (req, res)=>{
