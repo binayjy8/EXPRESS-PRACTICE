@@ -38,7 +38,7 @@ app.get("/search", (req, res) => {
 
 // app.use((req, res) =>{
 //     // console.log(req);
-//     console.log("req accee");
+//     console.log("req acce");
 //     let code = "<h1>Fruits</h1> <ul><li>Apple</li><li>Mango</li></ul>";
 //     res.send(code);
 // });
