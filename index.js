@@ -29,7 +29,7 @@ app.get("/search", (req, res) => {
 // });
 
 // app.get("/help", (req, res)=>{
-//     res.send(" connew");
+//     res.send(" conne");
 // });
 
 // app.get("*", (req, res)=>{
