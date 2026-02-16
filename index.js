@@ -33,7 +33,7 @@ app.get("/search", (req, res) => {
 // });
 
 // app.get("*", (req, res)=>{
-//     res.send("path doe");
+//     res.send("path do");
 // });
 
 // app.use((req, res) =>{
