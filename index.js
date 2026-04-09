@@ -42,3 +42,4 @@ app.get("/search", (req, res) => {
 //     let code = "<h1></h1> <ul><li></li><li></li></ul>";
 //     res.send();
 // });
+console
