@@ -39,6 +39,6 @@ app.get("/search", (req, res) => {
 // app.use((req, res) =>{
 //     // console.log(req);
 //     console.log("req");
-//     let code = "<h1>Fruits</h1> <ul><li>Apple</li><li>M</li></ul>";
+//     let code = "<h1>Fruits</h1> <ul><li>Apple</li><li></li></ul>";
 //     res.send();
 // });
