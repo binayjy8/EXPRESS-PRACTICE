@@ -40,5 +40,5 @@ app.get("/search", (req, res) => {
 //     // console.log(req);
 //     console.log("req");
 //     let code = "<h1>Fruits</h1> <ul><li>Apple</li><li>Mango</li></ul>";
-//     res.send(code);
+//     res.send(cde);
 // });
