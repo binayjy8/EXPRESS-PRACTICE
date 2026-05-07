@@ -24,7 +24,7 @@ app.get("/search", (req, res) => {
     res.send(`<h1>search resulet fo query: ${q}</h1>`);
 });
 
-app.get("/he");
+app.get("/hel");
 
 // app.get("/search", (req, res)=>{
 //     res.send("");
